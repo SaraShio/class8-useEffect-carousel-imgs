@@ -1,0 +1,57 @@
+.body{
+    background-color: var(--white);
+    min-height: 100vh;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: var(--peach);
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    color: var(--white);
+    font-size: 3rem;
+    background-color: var(--tan);
+    width: 16rem;
+    height: 5rem;
+    border-radius: 1000px;
+}
+
+.number{
+    color: var(--green);
+    font-size: 22rem;
+}
+
+.pageName{
+    font-size: 2rem;
+    margin-top: 4rem;   
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons>div{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    color: var(--white);
+    font-size: 1.5rem;
+    text-decoration: underline;
+    background-color: var(--blue);
+    width: 8rem;
+    height: 8rem;
+    border: none;
+    border-radius: 1000px;
+}

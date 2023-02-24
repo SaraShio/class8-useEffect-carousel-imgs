@@ -1,0 +1,12 @@
+.main{
+    padding: 10rem;
+    display: flex;
+}
+
+.arrow{
+    background-color:var(--peach);
+    margin:6rem;
+    margin-top: 12rem;
+    border: 0.75rem solid var(--peach);
+    border-radius: 1000px;
+}
